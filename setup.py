@@ -8,9 +8,8 @@ setup(
     description = ("A simple diceware based passphrase generator"),
     license = "GPLv3+",
     keywords = "diceware passphrase password security",
-    #url=???,
+    url="https://github.com/richhaase/passphraser",
     packages=["passphraser", "tests"],
-    #long_description=???,
     classifiers=[
         "Developent Status :: 3 - Alpha",
         "Environment :: Console",

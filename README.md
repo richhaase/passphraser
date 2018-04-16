@@ -1,2 +1,6 @@
 # passphraser
-A diceware based passphrase generator
+A diceware passphrase generator
+
+## Built-in wordlists:
+Diceware
+Beale
