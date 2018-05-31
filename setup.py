@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = "passphraser",
-    version = "0.0.1",
+    version = "0.0.1a1",
     author = "Rich Haase",
     author_email = "richh@posteo.net",
     description = ("A simple diceware based passphrase generator"),
