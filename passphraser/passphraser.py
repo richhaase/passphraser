@@ -50,7 +50,7 @@ def generate_passphrase(wordlist_dict, seed, num_of_words, delimiter):
     for i in range(num_of_words):
         passphrase.append(wordlist_dict[roll_dice()])
 
-    print delimiter.join(passphrase)
+    print(delimiter.join(passphrase))
 
 
 def main():
@@ -63,7 +63,6 @@ def main():
     if not args.wordlist in wlfi.keys():
         parser.error("Available wordlists: %s" %  wlfi.keys())
 
-    #print "loading wordlist dictionary" 
     wldict = load_wordlist_dict(args.wordlist)
 
     for i in range(0, args.num_of_passphrases):
